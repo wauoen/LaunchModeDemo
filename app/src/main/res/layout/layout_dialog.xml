@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="height:"/>
+        <EditText
+            android:id="@+id/et_height"
+            android:layout_weight="3"
+            android:text="100"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="margin:"/>
+            <EditText
+                android:id="@+id/et_margin"
+                android:layout_weight="3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="10"/>
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/recrate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recreate Activity"/>
+
+
+
+</LinearLayout>
